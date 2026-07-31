@@ -150,38 +150,6 @@ Additional visualizations:
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Python ≥ 3.8
-- pip / conda package manager
-
-### Installation
-
-```bash
-# 1. Clone the repository
-git clone <repository-url>
-cd "CIFAR 10"
-
-# 2. Install dependencies
-pip install tensorflow matplotlib numpy scipy scikit-learn seaborn
-
-# 3. Launch the notebook
-jupyter notebook "CIFAR-10 AKSHAT GARG 23BCE10641.ipynb"
-```
-
-> **Note:** The CIFAR-10 dataset is downloaded automatically by TensorFlow on first run (~170 MB). No Kaggle account needed.
-
----
-
-## 📁 Project Structure
-
-```
-CIFAR 10/
-├── CIFAR-10 AKSHAT GARG 23BCE10641.ipynb   # Main notebook (full pipeline)
-└── README.md                                # Project documentation
-```
 
 ---
 
