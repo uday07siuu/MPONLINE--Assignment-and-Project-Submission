@@ -167,15 +167,7 @@ Adult Census Income Classification/
 
 ---
 
-## 👤 Author
 
-| Field | Detail |
-|---|---|
-| **Name** | Akshat Garg |
-| **Registration No.** | 23BCE10641 |
-| **Application No.** | IN26011052 |
-| **Batch** | 1A |
-| **Email** | akshat.23bce10641@vitbhopal.ac.in |
 
 ---
 
