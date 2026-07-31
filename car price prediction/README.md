@@ -189,7 +189,7 @@ cd "car price prediction"
 pip install pandas numpy scikit-learn flask seaborn matplotlib opendatasets
 
 # 3. Option A: Run the notebook (trains model + saves pickle + creates app)
-jupyter notebook "CAR_PRICE_PREDICTOR_AKSHAT_GARG_23BCE10641.ipynb"
+jupyter notebook "CAR_PRICE_PREDICTOR.ipynb"
 
 # 3. Option B: Run the Flask app directly (if model pickle already exists)
 python app.py
@@ -198,25 +198,6 @@ python app.py
 Then open **http://127.0.0.1:5000** in your browser to use the predictor.
 
 > **Note:** The notebook downloads the dataset using `opendatasets`. You will be prompted for your Kaggle username and API key on first run.
-
----
-
-## 📁 Project Structure
-
-```
-car price prediction/
-├── CAR_PRICE_PREDICTOR_AKSHAT_GARG_23BCE10641.ipynb   # Main notebook (EDA + training + app creation)
-├── app.py                                              # Flask web application
-├── car_price_model.pkl                                 # Serialized Random Forest model
-├── templates/
-│   └── index.html                                      # Web form UI
-├── vehicle-dataset-from-cardekho/                      # Dataset directory
-│   ├── car data.csv                                    # Primary dataset used
-│   ├── CAR DETAILS FROM CAR DEKHO.csv
-│   ├── Car details v3.csv
-│   └── car details v4.csv
-└── README.md                                           # Project documentation
-```
 
 ---
 
